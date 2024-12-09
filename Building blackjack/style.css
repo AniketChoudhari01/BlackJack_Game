@@ -1,0 +1,41 @@
+body {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.container {
+    margin: 10vh auto;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 4em;
+}
+
+.message-ele {
+    /* font-family: italic; */
+    font-style: italic;
+}
+
+.btn {
+    background-color: goldenrod;
+    width: 12em;
+    height: 4em;
+    color: #016f32;
+    font-weight: bolder;
+    border: 3px solid silver;
+    border-radius: 1em;
+    margin: 1em auto 0 auto;
+}
+
+.btn:hover {
+    color: goldenrod;
+    background-color: #016f32;
+}
